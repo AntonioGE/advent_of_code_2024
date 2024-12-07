@@ -1,5 +1,5 @@
-#ifndef ADVENT_5_HPP
-#define ADVENT_5_HPP
+#ifndef ADVENT_6_HPP
+#define ADVENT_6_HPP
 
 #include <string>
 #include <vector>
