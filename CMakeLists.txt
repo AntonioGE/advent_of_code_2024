@@ -19,6 +19,7 @@ add_executable(advent_9 src/advent_9.cpp src/advent_9.hpp src/advent_common.cpp)
 add_executable(advent_10 src/advent_10.cpp src/advent_10.hpp src/advent_common.cpp)
 add_executable(advent_11 src/advent_11.cpp src/advent_11.hpp src/advent_common.cpp)
 add_executable(advent_12 src/advent_12.cpp src/advent_12.hpp src/advent_common.cpp)
+add_executable(advent_13 src/advent_13.cpp src/advent_13.hpp src/advent_common.cpp)
 
 # Copy the "res" folder into the binary folder
 file(COPY ${CMAKE_SOURCE_DIR}/res DESTINATION ${CMAKE_BINARY_DIR})
