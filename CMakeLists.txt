@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(src)
 
-foreach(i RANGE 1 16)
+foreach(i RANGE 1 17)
     add_executable(advent_${i} src/advent_${i}.cpp src/advent_${i}.hpp src/advent_common.cpp)
 endforeach()
 
